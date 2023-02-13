@@ -1,4 +1,4 @@
-﻿//Задача со сравнением чисел
+﻿//Задача 2 со сравнением чисел
 Console.WriteLine("Enter numberA:");
 int numberA = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter numberB:");
