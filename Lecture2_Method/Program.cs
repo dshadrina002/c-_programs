@@ -14,7 +14,7 @@ void IndexOf(int[] collection, int find)
 {
     int check = -1;
     for(int i = 0; i < collection.Length; i++)
-    if(collection[i] == find)
+    if(collection[i] == find)   
     {
         Console.WriteLine("Your number: " + i);
         check = i;
