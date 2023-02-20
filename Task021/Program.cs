@@ -1,4 +1,5 @@
-﻿Console.Write("Enter X1: ");
+﻿// Задача 21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+Console.Write("Enter X1: ");
 int X1 = int.Parse(Console.ReadLine()!);
 Console.Write("Enter Y1: ");
 int Y1 = int.Parse(Console.ReadLine()!);
