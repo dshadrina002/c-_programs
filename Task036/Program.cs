@@ -24,7 +24,7 @@ void PrintArray(int[] inArray)
 void PossitionSum(int[] outArray)
 {
     int negativeSum = 0;
-    for(int i = 0; i < outArray.Length; i+=2)
+    for(int i = 1; i < outArray.Length; i+=2)
     {
         negativeSum = negativeSum + outArray[i];
     }
@@ -34,7 +34,7 @@ void PossitionSum(int[] outArray)
 
 Console.Write("Enter array length: ");
 int arraySize = int.Parse(Console.ReadLine()!);
-int[] array = GetArray(arraySize, 100, 999);
+int[] array = GetArray(arraySize, 1, 10);
 PrintArray(array);
 Console.WriteLine();
 PossitionSum(array);
