@@ -31,8 +31,8 @@ void Counter(int[] outArray)
 }
 
 Console.Write("Задайте элементы массива через пробел: ");
-string elements = Console.ReadLine()!;
 int[] array = StringToArray(elements);
+string elements = Console.ReadLine()!;
 PrintArray(array);
 Console.WriteLine();
 Counter(array);
